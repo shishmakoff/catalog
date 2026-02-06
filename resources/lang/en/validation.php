@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'failed' => 'The given data was invalid.',
+    'q.string' => 'Search parameter must be a string.',
+    'q.max' => 'Search parameter must not exceed 255 characters.',
+    'price_from.numeric' => 'Minimum price must be a number.',
+    'price_from.min' => 'Minimum price cannot be negative.',
+    'price_to.numeric' => 'Maximum price must be a number.',
+    'price_to.min' => 'Maximum price cannot be negative.',
+    'category_id.integer' => 'Category ID must be an integer.',
+    'category_id.exists' => 'The selected category does not exist.',
+    'in_stock.boolean' => 'Stock availability must be true or false.',
+    'rating_from.numeric' => 'Minimum rating must be a number.',
+    'rating_from.min' => 'Minimum rating cannot be less than 0.',
+    'rating_from.max' => 'Maximum rating cannot exceed 5.',
+    'sort.string' => 'Sort parameter must be a string.',
+    'sort.in' => 'Invalid sort value.',
+    'page.integer' => 'Page number must be an integer.',
+    'page.min' => 'Page number must be at least 1.',
+    'per_page.integer' => 'Items per page must be an integer.',
+    'per_page.min' => 'Items per page must be at least 1.',
+    'per_page.max' => 'Items per page cannot exceed 100.',
+    'product.not_found' => 'Product not found',
+    'product.not_found_by_id' => 'The product with the specified ID does not exist.',
+];
